@@ -1,0 +1,28 @@
+@import "menu";
+@import "footer";
+
+$paleta:#3F6CA6;
+
+.containerInfo{ //Bloque 1
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+}
+
+.containerInfo__elemento{
+    padding: 0.5em;
+  }
+
+  .containerInfo__pregunta {
+    background-color: $paleta;
+    text-align: center;
+  }
+
+  .containerInfo__respuesta{
+    text-align: justify;
+  }
+
+

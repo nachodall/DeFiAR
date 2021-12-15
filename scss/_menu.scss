@@ -1,0 +1,40 @@
+//DECLARACION DE VARIABLES
+$paleta: #3F6CA6;
+$padding: 1rem;
+
+.boton{
+  padding: 15px;
+  font-size: 16px;
+  border:0.1em solid black;
+  outline: 0px;
+  background-color:white;
+  color: black;
+  border-radius: 2em;
+  cursor: pointer;
+  margin-left:2em;
+}
+
+.boton:hover{
+  background:$paleta;
+  color:white;
+}
+
+.menu{
+  padding-left: $padding + 0.5rem;
+  padding-right: $padding;
+}
+
+.menu_texto{
+  border-radius: $padding;
+}
+
+.menu a:hover{
+  background-color: $paleta;
+  transform: scale(1.1,1.1);
+  border-radius: 1rem;
+}
+
+.botonContainer{
+  margin-left: 4rem;
+ 
+}

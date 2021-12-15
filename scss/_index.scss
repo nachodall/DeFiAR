@@ -1,0 +1,39 @@
+@import "menu";
+@import "footer";
+
+$letterSize:1em;
+
+.containerMain__parrafo{
+    justify-self: center;
+    align-self: center;
+    font-size: $letterSize;
+    line-height:$letterSize;
+    letter-spacing:$letterSize - 0.96em;
+    word-spacing: $letterSize - 0.9em;
+}
+
+.containerMain__iframe{
+    justify-self: center;
+    align-self: center;
+}
+
+.seccionMain{
+    margin: 1em;
+}
+
+.seccionMain__titulo{
+    text-transform: uppercase;
+}
+
+.seccionMain__parrafo{
+    justify-self: center;
+    align-self: center;
+    font-size: $letterSize + 0.2em;
+    line-height:$letterSize + 0.1em;
+    letter-spacing:$letterSize - 0.96em;
+    word-spacing: $letterSize - 0.9em;
+}
+
+.seccionMain__fotos{
+    justify-content: space-around;
+}
